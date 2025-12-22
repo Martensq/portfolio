@@ -78,8 +78,8 @@ export const projectsByLang = {
         subtitle: "Application fullstack • Auth, API, Base de données",
         demo: "https://martensq.github.io/gamevault/",
         code: "https://github.com/Martensq/gamevault",
-        image: "/projects/gamevault.png",
-        gif: "/projects/gamevault.gif",
+        image: "projects/gamevault.png",
+        gif: "projects/gamevault.gif",
         bullets: [
           "Application CRUD complète avec authentification JWT",
           "API REST Node.js + Prisma + PostgreSQL (Neon)",
