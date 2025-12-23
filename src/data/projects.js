@@ -4,8 +4,8 @@ export const projectsByLang = {
       {
         title: "GameVault",
         subtitle: "Fullstack app • Auth, API, Database",
-        demo: "https://martensq.github.io/gamevault/",
-        code: "https://github.com/Martensq/gamevault",
+        demo: "https://martensq.github.io/game-vault/",
+        code: "https://github.com/Martensq/game-vault",
         image: "projects/gamevault.png",
         gif: "projects/gamevault.gif",
         bullets: [
@@ -76,8 +76,8 @@ export const projectsByLang = {
       {
         title: "GameVault",
         subtitle: "Application fullstack • Auth, API, Base de données",
-        demo: "https://martensq.github.io/gamevault/",
-        code: "https://github.com/Martensq/gamevault",
+        demo: "https://martensq.github.io/game-vault/",
+        code: "https://github.com/Martensq/game-vault",
         image: "projects/gamevault.png",
         gif: "projects/gamevault.gif",
         bullets: [
