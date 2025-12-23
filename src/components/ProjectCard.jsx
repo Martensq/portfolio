@@ -18,11 +18,11 @@ export default function ProjectCard({ project, variant = "main" }) {
       </div>
 
       <div className="relative">
-        {/* Media (Option C): image always, gif on hover */}
+        {/* Media : image always, gif on hover */}
         {project.image ? (
           <div className="mb-5 overflow-hidden rounded-xl ring-1 ring-slate-200">
             <div className="relative aspect-[16/9] bg-slate-100">
-              {/* Static image (default) */}
+              {/* Static image */}
               <img
                 src={project.image}
                 alt={`${project.title} preview`}
@@ -30,7 +30,7 @@ export default function ProjectCard({ project, variant = "main" }) {
                 loading="lazy"
               />
 
-              {/* GIF on hover (optional) */}
+              {/* GIF on hover */}
               {project.gif ? (
                 <img
                   src={project.gif}
