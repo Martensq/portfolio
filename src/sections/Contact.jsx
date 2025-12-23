@@ -6,7 +6,7 @@ const GITHUB = "https://github.com/Martensq";
 const LINKEDIN = "https://www.linkedin.com/in/quentin-martens-624361230/";
 
 export default function Contact() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
 
   return (
     <div id="contact">
@@ -38,6 +38,15 @@ export default function Contact() {
               className="rounded-xl bg-white/80 px-4 py-2 text-sm font-semibold text-slate-900 ring-1 ring-slate-200 transition hover:bg-white focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2"
             >
               {t.contact.ctaLinkedin}
+            </a>
+
+            <a
+              href={`${import.meta.env.BASE_URL}cv/CV_${lang.toUpperCase()}.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-xl bg-white/80 px-4 py-2 text-sm font-semibold text-slate-900 ring-1 ring-slate-200 transition hover:bg-white focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2"
+            >
+              CV
             </a>
           </div>
 

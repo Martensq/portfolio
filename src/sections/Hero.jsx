@@ -6,7 +6,6 @@ export default function Hero() {
   return (
     <header className="mx-auto max-w-5xl px-6 pt-14 pb-10">
       <div className="relative overflow-hidden rounded-3xl bg-white/70 p-8 shadow-sm ring-1 ring-slate-200 backdrop-blur">
-        {/* soft background blob */}
         <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-sky-200/40 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-28 -left-20 h-72 w-72 rounded-full bg-indigo-200/40 blur-3xl" />
 
@@ -52,6 +51,14 @@ export default function Hero() {
                 external
               >
                 {t.hero.ctaLinkedin}
+              </ButtonLink>
+
+              <ButtonLink
+                href={`${import.meta.env.BASE_URL}cv/CV_${lang.toUpperCase()}.pdf`}
+                variant="secondary"
+                external
+              >
+                CV
               </ButtonLink>
             </div>
 
